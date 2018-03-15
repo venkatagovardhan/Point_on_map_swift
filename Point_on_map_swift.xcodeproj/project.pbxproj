@@ -13,6 +13,9 @@
 		C0365A4E2058B4A300EF6CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0365A4D2058B4A300EF6CE5 /* Assets.xcassets */; };
 		C0365A512058B4A300EF6CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0365A4F2058B4A300EF6CE5 /* LaunchScreen.storyboard */; };
 		C0365A5C2058B4AD00EF6CE5 /* Point_on_map_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365A5B2058B4AD00EF6CE5 /* Point_on_map_swiftUITests.swift */; };
+		C0365A672058B7E300EF6CE5 /* sat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0365A662058B7E200EF6CE5 /* sat1.jpg */; };
+		C0365A6C2058B87300EF6CE5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0365A6B2058B87300EF6CE5 /* SWRevealViewController.m */; };
+		C0365A6E2058BE1700EF6CE5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0365A6D2058BE1700EF6CE5 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 		C0365A572058B4AC00EF6CE5 /* Point_on_map_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Point_on_map_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0365A5B2058B4AD00EF6CE5 /* Point_on_map_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point_on_map_swiftUITests.swift; sourceTree = "<group>"; };
 		C0365A5D2058B4AD00EF6CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0365A662058B7E200EF6CE5 /* sat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sat1.jpg; sourceTree = "<group>"; };
+		C0365A692058B87000EF6CE5 /* Point_on_map_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Point_on_map_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0365A6A2058B87300EF6CE5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C0365A6B2058B87300EF6CE5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C0365A6D2058BE1700EF6CE5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +85,13 @@
 		C0365A452058B4A000EF6CE5 /* Point_on_map_swift */ = {
 			isa = PBXGroup;
 			children = (
+				C0365A682058B84300EF6CE5 /* SW_Reveal_ViewController */,
 				C0365A462058B4A000EF6CE5 /* AppDelegate.swift */,
 				C0365A482058B4A100EF6CE5 /* ViewController.swift */,
+				C0365A6D2058BE1700EF6CE5 /* MenuViewController.swift */,
 				C0365A4A2058B4A200EF6CE5 /* Main.storyboard */,
 				C0365A4D2058B4A300EF6CE5 /* Assets.xcassets */,
+				C0365A662058B7E200EF6CE5 /* sat1.jpg */,
 				C0365A4F2058B4A300EF6CE5 /* LaunchScreen.storyboard */,
 				C0365A522058B4A300EF6CE5 /* Info.plist */,
 			);
@@ -94,6 +105,16 @@
 				C0365A5D2058B4AD00EF6CE5 /* Info.plist */,
 			);
 			path = Point_on_map_swiftUITests;
+			sourceTree = "<group>";
+		};
+		C0365A682058B84300EF6CE5 /* SW_Reveal_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0365A6A2058B87300EF6CE5 /* SWRevealViewController.h */,
+				C0365A6B2058B87300EF6CE5 /* SWRevealViewController.m */,
+				C0365A692058B87000EF6CE5 /* Point_on_map_swift-Bridging-Header.h */,
+			);
+			path = SW_Reveal_ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +167,7 @@
 				TargetAttributes = {
 					C0365A422058B49F00EF6CE5 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					C0365A562058B4AC00EF6CE5 = {
@@ -179,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0365A672058B7E300EF6CE5 /* sat1.jpg in Resources */,
 				C0365A512058B4A300EF6CE5 /* LaunchScreen.storyboard in Resources */,
 				C0365A4E2058B4A300EF6CE5 /* Assets.xcassets in Resources */,
 				C0365A4C2058B4A200EF6CE5 /* Main.storyboard in Resources */,
@@ -201,6 +224,8 @@
 			files = (
 				C0365A492058B4A100EF6CE5 /* ViewController.swift in Sources */,
 				C0365A472058B4A000EF6CE5 /* AppDelegate.swift in Sources */,
+				C0365A6C2058B87300EF6CE5 /* SWRevealViewController.m in Sources */,
+				C0365A6E2058BE1700EF6CE5 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,12 +378,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = STC4XW93GM;
 				INFOPLIST_FILE = Point_on_map_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatagovardhan.Point-on-map-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Point_on_map_swift/SW_Reveal_ViewController/Point_on_map_swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,12 +396,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = STC4XW93GM;
 				INFOPLIST_FILE = Point_on_map_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatagovardhan.Point-on-map-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Point_on_map_swift/SW_Reveal_ViewController/Point_on_map_swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
